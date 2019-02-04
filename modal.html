@@ -1,0 +1,70 @@
+<!--<Embed modal HTML in document
+Create a link with rel="modal:open" and set the href attribute to the modal's DOM id.-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <meta content="ie=edge" http-equiv="X-UA-Compatible">
+      <title>Simul</title>
+      <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" rel="stylesheet">
+      <script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script crossorigin="anonymous" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+      <script crossorigin="anonymous" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+      <link href="simul.css" rel="stylesheet" type="text/css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+</head>
+
+<div id="ex1" class="modal">
+      <h2>Add a provider to your app</h2>
+      <div class="modal-body" style="padding: 0"></div>
+
+      <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
+            <img width="24" height="24" alt="deviantart logo" src="assets/images/da.png">
+            <span style="font-size: 1.2em">DeviantArt</span>
+            </a>
+      </div>
+
+      <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
+            <img style="margin-left: 10px; margin-right: 10px" width="24" height="24" alt="deviantart logo" src="assets/images/in.png">
+            <span style="font-size: 1.2em">Linkedin</span>
+            </a>
+      </div>
+
+      <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
+            <img style="margin-left: 10px; margin-right: 10px" width="24" height="24" alt="deviantart logo" src="assets/images/ig.png">
+            <span style="font-size: 1.2em">Instagram</span>
+            </a>
+      </div>
+
+      <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
+            <img style="margin-left: 10px; margin-right: 10px" width="24" height="24" alt="deviantart logo" src="assets/images/twitch.png">
+            <span style="font-size: 1.2em">Twitch</span>
+            </a>
+      </div>
+
+      <div class="ccol-xs-12 col-md-12 col-lg-12 col-sm-12">
+            <img style="margin-left: 10px; margin-right: 10px" width="24" height="24" alt="deviantart logo" src="assets/images/rd.png">
+            <span style="font-size: 1.2em">Reddit</span>
+            </a>
+      </div>
+
+      <div class="col-xs-12 col-md-12 col-lg-12 col-sm-12">
+            <img style="margin-left: 10px; margin-right: 10px" width="24" height="24" alt="deviantart logo" src="assets/images/twitter.png">
+            <span style="font-size: 1.2em">Twitter</span>
+            </a>
+      </div>
+</div>
+
+<!-- Link to open the modal -->
+<p><a href="#ex1" rel="modal:open">Open Modal</a></p>
+
+<!--test-->

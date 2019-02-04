@@ -1,0 +1,141 @@
+body {
+  background-image: url("../images/background.jpg");
+}
+
+.bumble {
+  height: 200px;
+ }
+
+ .tinder {
+  height: 200px;
+ }
+
+ .grindr {
+  height: 200px;
+ }
+
+ .twitter {
+  height: 200px;
+ }
+
+ .facebook {
+  height: 200px;
+ }
+ 
+ .instagram {
+  height: 200px;
+ }
+ 
+ .carousel-item {
+  text-align: center !important;
+ }
+
+ .Media {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+ }
+ 
+ .Media-figure {
+  margin-right: 1em;
+  height: 70px;
+ }
+ 
+ .Media-body {
+  flex: 1;
+ }
+
+ .row-feed {
+  width: 70%;
+  margin: auto;
+  border: 10px solid black;
+  border-width: 3px;
+  background-color: lightblue;
+  font-family: "ZCOOL Kuaile", cursive;
+ }
+
+ .col {
+  width: 70%;
+  margin: auto;
+  border: 10px solid black;
+  border-width: 3px;
+  background-color: lightblue;
+  font-family: "ZCOOL Kuaile", cursive;
+ }
+
+ .display-4 {
+  font-family: "Indie Flower", cursive;
+ }
+
+ .lead {
+  font-family: "Indie Flower", cursive;
+ }
+
+ .nav-item {
+  font-family: "Bangers", cursive;
+ }
+
+ .form-control {
+  font-family: "ZCOOL Kuaile", cursive;
+ }
+
+ .form-group {
+  font-family: "Indie Flower", cursive;
+ }
+
+ .descrip {
+  font-family: "ZCOOL Kuaile", cursive;
+ }
+
+ .nav-link {
+  font-family: "Bangers", cursive;
+ }
+
+ .contact {
+  font-family: "Bangers", cursive;
+ }
+
+.Media {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.Media-figure {
+  margin-right: 1em;
+  height: 70px;
+}
+
+.Media-body {
+  flex: 1;
+}
+
+.row.feed {
+  width: 70%;
+  margin: auto;
+  padding-top: 20px;
+  border: 10px solid black;
+  border-width: 3px;
+  background-color: lightblue;
+  font-family: "ZCOOL Kuaile", cursive;
+}
+
+.social-buttons {
+  margin: auto;
+  margin-bottom: 20px;
+  font-family: "ZCOOL Kuaile", cursive;
+}
+
+.modal-logo {
+  width: 30px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 22px;
+}
+
